@@ -2,7 +2,16 @@
 
 2019.02.12
 
-## 명령어 요약
+## 명령어
+
+### 6가지 필수 명령어
+
+- clone : 원격에서 로컬로 복사
+- checkout : 브랜치 간 이동
+- pull : 파일 받아오기
+- add : 스테이징
+- commit : 히스토리및 수정사항 저장
+- push : 수정사항 원격 저장
 
 ### 로컬
 
@@ -114,3 +123,8 @@ git push origin --delete BRANCH_NAME   # 원격지 브랜치 삭제
 - 나뉘었던 브랜치를 합치는 기능
 - Merge 도 하나의 COMMIT 결과로 바라볼 수 있음
 - Github 를 사용한다면 로컬에서 Merge 하기 보단 Pull Request로 Merge 해서 Master 버전 관리 가능
+
+### 추후 확인할 사항
+
+- revert : 취소한 가지가 다음 가지로 뻗어나가는 기능(reset 과의 비교 필요)
+- rebase : Merge 와 비교 필요
