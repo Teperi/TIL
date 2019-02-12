@@ -79,9 +79,21 @@ git push origin --delete BRANCH_NAME   # 원격지 브랜치 삭제
 
 ### Commit
 
-- 파일 히스토리 저장 : 단순한 의미의 파일 저장이 아닌, 변경 이력을 같이 담아야 함
-- Atomic commit 필요함 : 개발 과정을 매우 쪼갠 후 그 부분의 이력을 같이 담아 commit 해야 함
+- 파일 히스토리 저장: 단순한 의미의 파일 저장이 아닌, 변경 이력을 같이 담아야 함
+- Atomic commit: 개발 과정을 매우 쪼갠 후 그 부분의 이력을 같이 담아 commit 해야 함
+- 만약 개발 중 Commit 을 잊어버렸을 경우 각각의 파일마다 Commit 를 하여 변경 로그를 남겨두는 것이 중요함
 
 ### Branch
 
 - 가지 : 작업 흐름에 대한 가지
+  - 목적 : 각각의 작업을 효율적으로 관리할 수 있도록 함
+- 브랜치를 만드는 여러 전략이 있음
+- (주관적인 의견) 협업시에는 Git-Flow / TIL 및 OpenSource에는 Github-Flow 사용
+
+#### Git-Flow
+
+![Git Flow Flowchart](https://nvie.com/img/git-model@2x.png)
+
+#### Github-Flow
+
+![Github-Flow](https://cdn-images-1.medium.com/max/1600/1*iHPPa72N11sBI_JSDEGxEA.png)
