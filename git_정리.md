@@ -11,6 +11,7 @@
 ```bash
 git init   # 로컬에 git 생성
 git status   # 현재 상태 확인
+git log   # 현상황 로그 확인
 ```
 
 #### 저장 관련
@@ -19,6 +20,8 @@ git status   # 현재 상태 확인
 git add .   # 전체 스테이징
 git add FILE_NAME   # 특정 파일만 스테이징
 git commit   # 스테이징된 파일 저장
+git reset --hard COMMIT_ID   # 되돌리기 기능
+    # 이 기능으로 Merge 된 것도 되돌리기 가능
 ```
 
 #### 브랜치 관련
@@ -30,6 +33,12 @@ git chechout BRANCH_NAME   # 브랜치 이동
     # HEAD: 현재 바라보고 있는 브랜치
 git checkout -b BRANCH_NAME   # 브랜치 생성 및 HEAD를 생성된 브랜치로 이동
 git branch -d BRANCH_NAME   # 브랜치 삭제
+```
+
+#### 머지 관련
+
+```bash
+git merge BRANCH_NAME   # Head 되어있는 브랜치와 입력한 브랜치 병합
 ```
 
 ---
@@ -58,6 +67,8 @@ git push origin --delete BRANCH_NAME   # 원격지 브랜치 삭제
 - [Pro Git](https://git-scm.com/book/ko/v2)
 - [Remote 브랜치 관리](https://trustyoo86.github.io/git/2017/11/28/git-remote-branch-create.html)
 - [TMON 개발 블로그: Git Commit & Branch 전략](http://blog.naver.com/PostView.nhn?blogId=tmondev&logNo=220763012361)
+- [GIT 브랜치 전략 비교](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
+- [초보몽키: Pull Request 설명](https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/)
 
 ## Git 특징
 
@@ -97,3 +108,9 @@ git push origin --delete BRANCH_NAME   # 원격지 브랜치 삭제
 #### Github-Flow
 
 ![Github-Flow](https://cdn-images-1.medium.com/max/1600/1*iHPPa72N11sBI_JSDEGxEA.png)
+
+### Merge
+
+- 나뉘었던 브랜치를 합치는 기능
+- Merge 도 하나의 COMMIT 결과로 바라볼 수 있음
+- Github 를 사용한다면 로컬에서 Merge 하기 보단 Pull Request로 Merge 해서 Master 버전 관리 가능
