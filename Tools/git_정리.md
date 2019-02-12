@@ -38,7 +38,7 @@ git reset --hard COMMIT_ID   # 되돌리기 기능
 ```bash
 git branch   # 로컬 브랜치 확인
 git branch BRANCH_NAME   # 로컬 브랜치 생성
-git chechout BRANCH_NAME   # 브랜치 이동
+git checkout BRANCH_NAME   # 브랜치 이동
     # HEAD: 현재 바라보고 있는 브랜치
 git checkout -b BRANCH_NAME   # 브랜치 생성 및 HEAD를 생성된 브랜치로 이동
 git branch -d BRANCH_NAME   # 브랜치 삭제

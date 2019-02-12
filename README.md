@@ -5,8 +5,8 @@ Today I Learned
 
 ## Markdown
 
-[Markdown 참고자료](Markdown_참고자료.md)
+[Markdown 참고자료](Tools/Markdown_참고자료.md)
 
 ## GIT
 
-[Git 이해](git_정리.md)
+[Git 이해](Tools/git_정리.md)
