@@ -16,3 +16,18 @@
 
 - 모든 언어는 문법과 규칙이 있음
 
+- let : 변수 선언
+- const : Constant, 상수 선언
+  - 첫번째 값을 넣을때만 값이 들어감
+  - const 선언된 변수를 바꾸려고 하면 에러 생성됨
+
+- JS Data Type
+  - String
+  - Boolean
+  - Number
+  - Float
+
+- Array & Object
+  - JS Array: [] (bracket / Square brackets)
+  - JS Object: {} (Curly barckets)
+    - key:value 형태로 저장
