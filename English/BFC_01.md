@@ -28,9 +28,9 @@
 - fling : 내던지다, 내팽개치다, 던지다
 - collapse : 붕괴되다 / 쓰러지다 / 허탈 상태가 되다 / 폭락하다
 - tumble out : 싸우다 / 굴러 떨어지다
-- barely : 간신히
+- barely : 간신히, 겨우
 - wreckage : 잔해
-- approach : 다가가다, 다가오다
+- approach : 다가가다, 다가오다, 접근하다
 
 ## 문장 정리
 
