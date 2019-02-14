@@ -6,8 +6,8 @@
 
 ## 작성 내역
 
-- 2019.02.13 첫 작성(#1 완료)
-- 2019.02.14 추가(#2)
+- 2019.02.13 첫 작성 (#1 완료)
+- 2019.02.14 추가 (#2)
 
 ## 내용 정리
 
@@ -20,7 +20,7 @@
   - jquery 로 작성한 코드를 웹 브라우저에서 실행할 경우, 기본적으로 브라우저에서 JS 로 컴파일해서 사용함
   - JS 가 가장 빠를 수 밖에 없음
   ![JS Compare](../Images/vanillajs_compare.jpg)
-  <sup id="sup1">[*1*](#footnote1)</sup>
+  <sup id="sup1">[*출처1*](#footnote1)</sup>
   - 따라서 JS 를 배우는 것이 좋음
 
 - 모든 언어는 문법과 규칙이 있음
@@ -55,13 +55,45 @@
 
 - Function
   - 일정한 동작을 수행하는 코드
-  - parameter: 매개변수 <sup id="sup2">[*2*](#footnote2)</sup>
+  - parameter: 매개변수<sup id="sup2">[*2*](#footnote2)</sup>
     - function 을 만들 때 사용하는 임의의 값
   - argument: 인수
     - function 을 실행할때 함수에 넣는 값
+  - return: Fuction 의 동작 결과를 보냄
+
+- Backtick( ` )
+  - String 에 Backtick 을 사용할 경우 변수를 불러오기 용이함
+
+  ```js
+  name = "SG";
+  console.log(`Hello ${name}`);
+  //result: Hello SG
+  ```
+
+- DOM
+  - Document Object Model
+  - HTML 태그를 가져다 Object 로 만들어 줌
+  - Console.log 와 .dir 의 차이<sup id="sup3">[*3*](#footnote3)</sup>
+    - console.log : HTML과 같은 트리 구조로 출력
+    - console.dir : JSON과 같은 트리 구조로 출력
+  - Event
+    - 클릭, 입력 등의 효과
+    - JS 는 이런 이벤트를 받아 원하는대로 변경하기 위해 만들어진 언어
+    - MDN 에 Event 상태에 대한 설명이 모두 있다.
+
+- CSS, HTML, JS 분리
+  - HTML: Tag 관리
+  - CSS: CSS 관리
+  - JS: 로직 처리
+
+- CSS transition
+  - Animation 역할
+  - 변화하는 부분 / 시간 / 동작형식 순서로 지정
 
 ## 출처
 
-<b id="footnote1">1</b> : [Vanilla-JS](http://vanilla-js.com/) [↩](#sup1)
+<b id="footnote1">출처1</b> : [Vanilla-JS](http://vanilla-js.com/) [↩](#sup1)
 
 <b id="footnote2">2</b> : [블로그: 파라미터 와 아규먼트 차이](https://enarastudent.tistory.com/entry/%ED%95%A8%EC%88%98%EC%9D%98-%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4) [↩](#sup2)
+
+<b id="footnote3">3</b> : [MDN : console.log()](https://developer.mozilla.org/ko/docs/Web/API/Console/log#console.dir()_%EA%B3%BC%EC%9D%98_%EC%B0%A8%EC%9D%B4) [↩](#sup3)
