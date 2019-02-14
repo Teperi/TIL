@@ -29,5 +29,9 @@
 
 - Array & Object
   - JS Array: [] (bracket / Square brackets)
+    - key 값이 각 자리마다 숫자로 저장
+    - 리스트 형태로 저장할 자료에 유리함
   - JS Object: {} (Curly barckets)
-    - key:value 형태로 저장
+    - lable:value 형태로 저장
+    - Object.lable 로 불러올 수 있음
+    - const 로 선언할 경우 각각의 value 는 변경 가능 / object 자체를 변경할 수 없음
