@@ -1,6 +1,13 @@
 # Vanilla JS
 
-2019.02.13
+## 강의 링크
+
+[초보자를 위한 바닐라 JavaScript](https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr)
+
+## 작성 내역
+
+- 2019.02.13 첫 작성(#1 완료)
+- 2019.02.14 추가(#2)
 
 ## 내용 정리
 
@@ -13,7 +20,7 @@
   - jquery 로 작성한 코드를 웹 브라우저에서 실행할 경우, 기본적으로 브라우저에서 JS 로 컴파일해서 사용함
   - JS 가 가장 빠를 수 밖에 없음
   ![JS Compare](../Images/vanillajs_compare.jpg)
-  *출처 : [Vanilla-JS](http://vanilla-js.com/)*
+  <sup id="sup1">[*1*](#footnote1)</sup>
   - 따라서 JS 를 배우는 것이 좋음
 
 - 모든 언어는 문법과 규칙이 있음
@@ -48,11 +55,13 @@
 
 - Function
   - 일정한 동작을 수행하는 코드
-  - parameter: 매개변수 <sup id="sup1">[출처1](#footnote1)</sup>
+  - parameter: 매개변수 <sup id="sup2">[*2*](#footnote2)</sup>
     - function 을 만들 때 사용하는 임의의 값
   - argument: 인수
     - function 을 실행할때 함수에 넣는 값
 
 ## 출처
 
-<b id="footnote1">1</b> : [블로그: 파라미터 와 아규먼트 차이](https://enarastudent.tistory.com/entry/%ED%95%A8%EC%88%98%EC%9D%98-%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4) [↩](#sup1)
+<b id="footnote1">1</b> : [Vanilla-JS](http://vanilla-js.com/) [↩](#sup1)
+
+<b id="footnote2">2</b> : [블로그: 파라미터 와 아규먼트 차이](https://enarastudent.tistory.com/entry/%ED%95%A8%EC%88%98%EC%9D%98-%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4) [↩](#sup2)
