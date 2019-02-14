@@ -4,6 +4,8 @@
 
 ## 내용 정리
 
+### #1
+
 - ECMAScript : 일종의 Specification
   - 각 브라우져들은 이 스펙을 적절히 구현해야 함
   - 현재 ES2016 까지는 왠만큼 구현이 되어 있음
@@ -35,3 +37,34 @@
     - lable:value 형태로 저장
     - Object.lable 로 불러올 수 있음
     - const 로 선언할 경우 각각의 value 는 변경 가능 / object 자체를 변경할 수 없음
+
+---
+
+### #2
+
+- Console
+  - **JS 에서 기본으로 제공해주는 Object**
+  - log, error 등의 기능을 built-in Function 으로 제공해준다
+
+- Function
+  - 일정한 동작을 수행하는 코드
+  - parameter: 매개변수
+    - function 을 만들 때 사용하는 임의의 값
+  - argument: 인수
+    - function 을 실행할때 함수에 넣는 값
+
+## 출처
+
+
+Here is some text containing a footnote.[^somesamplefootnote]
+
+[^somesamplefootnote]: Here is the text of the footnote itself.
+
+
+
+
+<sup>[1](#myfootnote1)</sup>
+
+  <a name="myfootnote1">1</a>: Footnote content goes here
+  <b id="f1">1</b> Footnote content here. [↩](#a1)
+[블로그: 파라미터 와 아규먼트 차이](https://enarastudent.tistory.com/entry/%ED%95%A8%EC%88%98%EC%9D%98-%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4)
