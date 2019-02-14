@@ -48,23 +48,11 @@
 
 - Function
   - 일정한 동작을 수행하는 코드
-  - parameter: 매개변수
+  - parameter: 매개변수 <sup id="sup1">[출처1](#footnote1)</sup>
     - function 을 만들 때 사용하는 임의의 값
   - argument: 인수
     - function 을 실행할때 함수에 넣는 값
 
 ## 출처
 
-
-Here is some text containing a footnote.[^somesamplefootnote]
-
-[^somesamplefootnote]: Here is the text of the footnote itself.
-
-
-
-
-<sup>[1](#myfootnote1)</sup>
-
-  <a name="myfootnote1">1</a>: Footnote content goes here
-  <b id="f1">1</b> Footnote content here. [↩](#a1)
-[블로그: 파라미터 와 아규먼트 차이](https://enarastudent.tistory.com/entry/%ED%95%A8%EC%88%98%EC%9D%98-%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+<b id="footnote1">1</b> : [블로그: 파라미터 와 아규먼트 차이](https://enarastudent.tistory.com/entry/%ED%95%A8%EC%88%98%EC%9D%98-%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4) [↩](#sup1)
