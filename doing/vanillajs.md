@@ -8,6 +8,7 @@
 
 - 2019.02.13 첫 작성 (#1 완료)
 - 2019.02.14 추가 (#2)
+- 2019.02.15 추가 (#3)
 
 ## 내용 정리
 
@@ -90,6 +91,29 @@
   - Animation 역할
   - 변화하는 부분 / 시간 / 동작형식 순서로 지정
 
+---
+
+### #3
+
+- 조건부 삼항 연산자(conditional ternary operator)
+  - ifelse 문의 축약형으로 빈번히 사용됨
+  - condition ? trueValue : falseValue 형태
+  - 조건을 중첩해서 쓰는 것은 피해야 하겠지만, 단순한 ifelse 관계의 경우 사용하면 코드 길이가 줄어드는 효과가 있다.
+
+- Web Storage<sup id="sup4">[*4*](#footnote4)</sup> <sup id="sup5">[*5*](#footnote5)</sup>
+  - 쿠키보다 사용하기 편하고 용량이 큼
+  - sessionStorage 와 LocalStorage 로 나누어짐
+  - HTML5 에서 도입된 개념
+  - String 만 저장됨
+
+- event.preventDefault
+  - submit, 뒤로가기 등의 행동을 할때, 기본적으로 하는 그 행동들을 막아줌
+  - 이후 JS 코드를 통해 내가 원하는 행동으로 바꿔줄 수 있음
+
+- filter
+  - Array ForEach 에 filter 기능을 추가
+  - 판별 함수를 통과하는 요소를 가지고 새로운 Array 를 만들어 줌
+
 ## 출처
 
 <b id="footnote1">출처1</b> : [Vanilla-JS](http://vanilla-js.com/) [↩](#sup1)
@@ -97,3 +121,7 @@
 <b id="footnote2">2</b> : [블로그: 파라미터 와 아규먼트 차이](https://enarastudent.tistory.com/entry/%ED%95%A8%EC%88%98%EC%9D%98-%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4) [↩](#sup2)
 
 <b id="footnote3">3</b> : [MDN : console.log()](https://developer.mozilla.org/ko/docs/Web/API/Console/log#console.dir()_%EA%B3%BC%EC%9D%98_%EC%B0%A8%EC%9D%B4) [↩](#sup3)
+
+<b id="footnote4">4</b> : [MDN : Web Storage API](https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API) [↩](#sup4)
+
+<b id="footnote5">5</b> : [W3SCHOOL : HTML5 Web Storage](https://www.w3schools.com/html/html5_webstorage.asp) [↩](#sup5)
