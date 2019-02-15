@@ -104,10 +104,15 @@
   - 쿠키보다 사용하기 편하고 용량이 큼
   - sessionStorage 와 LocalStorage 로 나누어짐
   - HTML5 에서 도입된 개념
+  - String 만 저장됨
 
 - event.preventDefault
   - submit, 뒤로가기 등의 행동을 할때, 기본적으로 하는 그 행동들을 막아줌
   - 이후 JS 코드를 통해 내가 원하는 행동으로 바꿔줄 수 있음
+
+- filter
+  - Array ForEach 에 filter 기능을 추가
+  - 판별 함수를 통과하는 요소를 가지고 새로운 Array 를 만들어 줌
 
 ## 출처
 
