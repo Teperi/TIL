@@ -9,6 +9,7 @@
 - 2019.02.13 첫 작성 (#1 완료)
 - 2019.02.14 추가 (#2)
 - 2019.02.15 추가 (#3)
+- 2019.02.16 추가 (#3 마무리)
 
 ## 내용 정리
 
@@ -113,6 +114,14 @@
 - filter
   - Array ForEach 에 filter 기능을 추가
   - 판별 함수를 통과하는 요소를 가지고 새로운 Array 를 만들어 줌
+
+- CSS Animation
+  - JS 나 Flash 를 사용하지 않고도 Animation 사용 가능
+  - @keyframe
+    - from - to 를 사용하여 동작할 처음과 끝 상태 지정
+    - 넣고싶은 부분의 css 에 keyframe 으로 만든 Animation 추가
+    - 자세한 사용법은 [W3SCHOOL : CSS Animation](https://www.w3schools.com/css/css3_animations.asp) 참고
+  - 추후 해보고 싶은 것 : [CSS Animation 초보자 입문서](https://webdesign.tutsplus.com/ko/tutorials/a-beginners-introduction-to-css-animation--cms-21068)
 
 ## 출처
 
