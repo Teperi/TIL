@@ -101,7 +101,7 @@
   - condition ? trueValue : falseValue 형태
   - 조건을 중첩해서 쓰는 것은 피해야 하겠지만, 단순한 ifelse 관계의 경우 사용하면 코드 길이가 줄어드는 효과가 있다.
 
-- Web Storage<sup id="sup4">[*4*](#footnote4)</sup> <sup id="sup5">[*5*](#footnote5)</sup>
+- Web Storageㅊ
   - 쿠키보다 사용하기 편하고 용량이 큼
   - sessionStorage 와 LocalStorage 로 나누어짐
   - HTML5 에서 도입된 개념
@@ -123,6 +123,12 @@
     - 자세한 사용법은 [W3SCHOOL : CSS Animation](https://www.w3schools.com/css/css3_animations.asp) 참고
   - 추후 해보고 싶은 것 : [CSS Animation 초보자 입문서](https://webdesign.tutsplus.com/ko/tutorials/a-beginners-introduction-to-css-animation--cms-21068)
 
+- Fetch API<sup id="sup6">[*6*](#footnote6)</sup>
+  - XMLHttpRequest(XHR) 에서의 문제 해결
+    - 문제점 : 입력, 출력, 상태 모두 하나의 객체로 관리함 / 상태 모두 하나의 객체로 관리
+  - Promise & generator 기반 비동기 프로그래밍 방식을 사용하기 위한 방법
+  - 좀 더 공부 해봐야 함
+
 ## 출처
 
 <b id="footnote1">출처1</b> : [Vanilla-JS](http://vanilla-js.com/) [↩](#sup1)
@@ -134,3 +140,6 @@
 <b id="footnote4">4</b> : [MDN : Web Storage API](https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API) [↩](#sup4)
 
 <b id="footnote5">5</b> : [W3SCHOOL : HTML5 Web Storage](https://www.w3schools.com/html/html5_webstorage.asp) [↩](#sup5)
+
+<b id="footnote6">6</b> : [웹기술블로그 : 정말 멋진 Fetch API!](http://hacks.mozilla.or.kr/2015/05/this-api-is-so-fetching/) [↩](#sup6)
+
