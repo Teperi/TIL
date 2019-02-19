@@ -132,14 +132,10 @@
 >     - 자세한 사용법은 [W3SCHOOL : CSS Animation](https://www.w3schools.com/css/css3_animations.asp) 참고
 >   - 추후 해보고 싶은 것 : [CSS Animation 초보자 입문서](https://webdesign.tutsplus.com/ko/tutorials/a-beginners-introduction-to-css-animation--cms-21068)
 
-
-
 ### 추가 공부
 
-- CSS 중앙정렬
-  - 출처 : https://mrjjang.tistory.com/136
-- CSS 글자 외곽선
-  - 출처 : https://zetawiki.com/wiki/CSS_%EA%B8%80%EC%9E%90_%EC%99%B8%EA%B3%BD%EC%84%A0
+- [CSS 중앙정렬](https://mrjjang.tistory.com/136)
+- [CSS 글자 외곽선](https://zetawiki.com/wiki/CSS_%EA%B8%80%EC%9E%90_%EC%99%B8%EA%B3%BD%EC%84%A0)
 
 ## 출처
 
