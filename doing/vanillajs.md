@@ -11,6 +11,7 @@
 - 2019.02.15 추가 (#3)
 - 2019.02.16 추가 (#3 마무리)
 - 2019.02.17 추가 (포멧 정리 및 CSS 추가)
+- 2019.02.19 추가 (포멧 정리 및 CSS 추가 - 2)
 
 ## 내용 정리
 
@@ -22,7 +23,7 @@
 
 > - **ECMAScript : 일종의 Specification**
 >   - 각 브라우져들은 이 스펙을 적절히 구현해야 함
->   - 현재 ES2016 까지는 왠만큼 구현이 되어 있음
+>   - 현재 ES2015(ES6) 까지는 왠만큼 구현이 되어 있음
 > - **JavaScript(Vanilla JS): 모든 브라우저에서 사용 가능한 언어**
 >   - jquery 로 작성한 코드를 웹 브라우저에서 실행할 경우, 기본적으로 브라우저에서 JS 로 컴파일해서 사용함
 >   - JS 가 가장 빠를 수 밖에 없음
@@ -98,38 +99,40 @@
 
 ### #3
 
-- 조건부 삼항 연산자(conditional ternary operator)
-  - ifelse 문의 축약형으로 빈번히 사용됨
-  - condition ? trueValue : falseValue 형태
-  - 조건을 중첩해서 쓰는 것은 피해야 하겠지만, 단순한 ifelse 관계의 경우 사용하면 코드 길이가 줄어드는 효과가 있다.
+- **Vanilla-JS**
 
-- Web Storageㅊ
-  - 쿠키보다 사용하기 편하고 용량이 큼
-  - sessionStorage 와 LocalStorage 로 나누어짐
-  - HTML5 에서 도입된 개념
-  - String 만 저장됨
+> - 조건부 삼항 연산자(conditional ternary operator)
+>   - ifelse 문의 축약형으로 빈번히 사용됨
+>   - condition ? trueValue : falseValue 형태
+>   - 조건을 중첩해서 쓰는 것은 피해야 하겠지만, 단순한 ifelse 관계의 경우 사용하면 코드 길이가 줄어드는 효과가 있다.
+> - Web Storage
+>   - 쿠키보다 사용하기 편하고 용량이 큼
+>   - sessionStorage 와 LocalStorage 로 나누어짐
+>   - HTML5 에서 도입된 개념
+>   - String 만 저장됨
+> - event.preventDefault
+>   - submit, 뒤로가기 등의 행동을 할때, 기본적으로 하는 그 행동들을 막아줌
+>   - 이후 JS 코드를 통해 내가 원하는 행동으로 바꿔줄 수 있음
+> - filter
+>   - Array ForEach 에 filter 기능을 추가
+>   - 판별 함수를 통과하는 요소를 가지고 새로운 Array 를 만들어 줌
+> - Fetch API<sup id="sup6">[*6*](#footnote6)</sup>
+>   - XMLHttpRequest(XHR) 에서의 문제 해결
+>     - 문제점 : 입력, 출력, 상태 모두 하나의 객체로 관리함 / 상태 모두 하나의 객체로 관리
+>   - Promise & generator 기반 비동기 프로그래밍 방식을 사용하기 위한 방법
+>   - 좀 더 공부 해봐야 함
 
-- event.preventDefault
-  - submit, 뒤로가기 등의 행동을 할때, 기본적으로 하는 그 행동들을 막아줌
-  - 이후 JS 코드를 통해 내가 원하는 행동으로 바꿔줄 수 있음
+- **CSS**
 
-- filter
-  - Array ForEach 에 filter 기능을 추가
-  - 판별 함수를 통과하는 요소를 가지고 새로운 Array 를 만들어 줌
+> - CSS Animation
+>   - JS 나 Flash 를 사용하지 않고도 Animation 사용 가능
+>   - @keyframe
+>     - from - to 를 사용하여 동작할 처음과 끝 상태 지정
+>     - 넣고싶은 부분의 css 에 keyframe 으로 만든 Animation 추가
+>     - 자세한 사용법은 [W3SCHOOL : CSS Animation](https://www.w3schools.com/css/css3_animations.asp) 참고
+>   - 추후 해보고 싶은 것 : [CSS Animation 초보자 입문서](https://webdesign.tutsplus.com/ko/tutorials/a-beginners-introduction-to-css-animation--cms-21068)
 
-- CSS Animation
-  - JS 나 Flash 를 사용하지 않고도 Animation 사용 가능
-  - @keyframe
-    - from - to 를 사용하여 동작할 처음과 끝 상태 지정
-    - 넣고싶은 부분의 css 에 keyframe 으로 만든 Animation 추가
-    - 자세한 사용법은 [W3SCHOOL : CSS Animation](https://www.w3schools.com/css/css3_animations.asp) 참고
-  - 추후 해보고 싶은 것 : [CSS Animation 초보자 입문서](https://webdesign.tutsplus.com/ko/tutorials/a-beginners-introduction-to-css-animation--cms-21068)
 
-- Fetch API<sup id="sup6">[*6*](#footnote6)</sup>
-  - XMLHttpRequest(XHR) 에서의 문제 해결
-    - 문제점 : 입력, 출력, 상태 모두 하나의 객체로 관리함 / 상태 모두 하나의 객체로 관리
-  - Promise & generator 기반 비동기 프로그래밍 방식을 사용하기 위한 방법
-  - 좀 더 공부 해봐야 함
 
 ### 추가 공부
 
