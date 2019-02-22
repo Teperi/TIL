@@ -8,13 +8,11 @@ Today I Learned
 - [Vanilla-JS 정리](NomadCoders/vanillajs.md)
 - [ReactJS Web Service 정리](doing/ReactJS_WS.md)
 
-## Markdown
+## 개인 정리자료
 
-- [Markdown 참고자료](Tools/Markdown_참고자료.md)
-
-## GIT
-
-- [Git 이해](Tools/git_정리.md)
+- [Markdown 참고자료](Reference/Markdown_참고자료.md)
+- [Git 이해](Reference/git_정리.md)
+- [프로그래밍 패러다임](Reference/Programming_Paradigms.md)
 
 ## 스터디 발표 자료
 
