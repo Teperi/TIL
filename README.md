@@ -13,6 +13,7 @@ Today I Learned
 - [Markdown 참고자료](Reference/Markdown_참고자료.md)
 - [Git 이해](Reference/git_정리.md)
 - [프로그래밍 패러다임](Reference/Programming_Paradigms.md)
+- [REST 개념 정리](Reference/RESTAPI.md) - 2019.02.26
 
 ## 스터디 발표 자료
 
