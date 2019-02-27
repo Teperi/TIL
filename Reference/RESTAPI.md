@@ -1,7 +1,8 @@
-# REST API
+# REST, RESTful, REST API
 
 - 2019.02.24(최초작성)
 - 2019.02.26(1차 정리 및 완성)
+- 2019.02.27(제목 수정 및 레이아웃 변경)
 
 ![REST](https://t1.daumcdn.net/cfile/tistory/2728BA505940EBDD17)
 
@@ -176,6 +177,12 @@
     - 방법1: Data 내에 하이퍼링크 표현
     - 방법2: HTTP 헤더 사용
 
+---
+
+- <b id="footnote1">1</b> : [고려대학교: CMS홈페이지 개요](https://kucms.korea.ac.kr/kucms/about/summary.do) [↩](#sup1)
+- <b id="footnote2">2</b> : [REST와 RESTful API](https://www.a-mean-blog.com/ko/blog/%ED%86%A0%EB%A7%89%EA%B8%80/_/REST%EC%99%80-RESTful-API) [↩](#sup2)
+- <b id="footnote3">3</b> : [그런 REST API 로 괜찮은가](https://youtu.be/RP_f5dMoHFc?t=638) [↩](#sup3)
+
 ## 정리 출처
 
 - [그런 REST API 로 괜찮은가](https://youtu.be/RP_f5dMoHFc)
@@ -187,9 +194,3 @@
   - [REST란? REST API란? RESTful이란?](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
   - [RESTFul이란 무엇인가?](https://blog.remotty.com/blog/2014/01/28/lets-study-rest/)
   - [SPOQA: REST 아키텍처를 훌륭하게 적용하기 위한 몇 가지 디자인 팁](https://spoqa.github.io/2012/02/27/rest-introduction.html)
-
----
-
-- <b id="footnote1">1</b> : [고려대학교: CMS홈페이지 개요](https://kucms.korea.ac.kr/kucms/about/summary.do) [↩](#sup1)
-- <b id="footnote2">2</b> : [REST와 RESTful API](https://www.a-mean-blog.com/ko/blog/%ED%86%A0%EB%A7%89%EA%B8%80/_/REST%EC%99%80-RESTful-API) [↩](#sup2)
-- <b id="footnote3">3</b> : [그런 REST API 로 괜찮은가](https://youtu.be/RP_f5dMoHFc?t=638) [↩](#sup3)
