@@ -90,9 +90,41 @@
           - ex: 로그인 화면 데이터 -> ID, 비밀번호
           - ex: 사용자 클릭
 
+### Rx(ReactiveX)
+
+- An API for asynchronous programming with observable streams
+  - 비동기 프로그래밍을 가능하게 해주는 API
+- Java, JS, Swift 등 지원
+
+- 비동기 프로그래밍 문제 해결 방법
+  1. Reactive Programming
+     - 외부에서 데이터를 가져와서 목적지까지 운반
+  2. LINQ(Language Intergrated Query)
+     - 통합 질의 언어
+     - SQL 쿼리처럼 표현할 수 있게 도와주는 일종의 확장 문법
+     - 쿼리 구문(Query syntax) 과 메소드 구문(Method Syntax) 타입 지원
+
+     ```c#
+     //Query syntax:
+     IEnumerable<int> numQuery1 =
+     from num in numbers
+     where num % 2 == 0
+     orderby num
+     select num;
+
+     //Method syntax:
+     IEnumerable<int> numQuery2 = numbers
+     .Where(num => num % 2 == 0)
+     .OrderBy(n => n);
+     ```
+
+     > - ex: 마우스 이동
+     >   - 마우스를 움직일 때마다 변하는 현재 위치 좌표는 외부에서 안으로 들어오는 자극이자, 데이터다. 이 좌표 데이터들은 Rx의 Observable이 만들어 놓은 문을 통해 프로그램 안으로 진입한다. 프로그램 안으로 들어온 데이터는 LINQ로 미리 작성해둔 오퍼레이터 사이를 헤엄쳐 최종 목적지에 도달한다. 프로그램은 최종 목적지로 들어온 데이터를 확인하여 응답한다. 이 과정은 마우스가 이동을 멈추지 않는 한 끊임없이 계속해서 이뤄진다. 마치 강물이 흐르듯이. 이게 Rx가 제안하는, 데이터 관점의 비동기 처리 방식이다.<sup id="sup2">[2](#footnote2)</sup>
+
 ---
 
 - <b id="footnote1">1</b> : [RxJava #1 반응형 프로그래밍이란 무엇인가?](https://brunch.co.kr/@yudong/33) [↩](#sup1)
+- <b id="footnote2">2</b> : [김코딩: MS는 ReactiveX를 왜 만들었을까? (feat. RxJS)](http://huns.me/development/2051) [↩](#sup2)
 
 ## 출처
 
