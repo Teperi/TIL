@@ -47,7 +47,7 @@
       - 자원: 해당 소프트웨어가 관리하는 모든 것
       - 대표: 자원을 특정할 수 있는 값(id 등)
     - 상태 전달
-      - 대이터를 요청하는 시점의 자원의 상태(정보) 전달
+      - 데이터를 요청하는 시점의 자원의 상태(정보) 전달
     - *HTTP 를 통해 CRUD 를 실행할 수 있는 API를 REST 라고도 부름*
       - *위 이야기 덕분에 REST 에 대해 어렵게 되기도 함*
 
@@ -128,7 +128,7 @@
   - Method(Verb, 행위): 할일(CRUD)
     - HTTP: Get, Post, Put, Delete
   - Representation of Resource: 표현(메시지)
-    - Client 의 요청의 따른 Server 의 응답
+    - Client 의 요청에 따른 Server 의 응답
     - JSON 및 XML 으로 데이터를 일반적으로 주고받음
 
 ### 독립적 진화

@@ -135,3 +135,7 @@
 - [Reactive Programming With Swift](https://www.slideshare.net/sunhyouplee/reactive-programming-with-swift)
 - [김코딩: MS는 ReactiveX를 왜 만들었을까? (feat. RxJS)](http://huns.me/development/2051)
 - [[RxSwift] RxSwift란? ReactiveX 란?](https://medium.com/@jang.wangsu/rxswift-rxswift%EB%9E%80-reactivex-%EB%9E%80-b21f75e34c10)
+
+## 수정 공부용 출처
+
+- [NDC14 - Rx와 Functional Reactive Programming으로 고성능 서버 만들기](https://www.slideshare.net/jongwookkim/ndc14-rx-functional-reactive-programming?next_slideshow=1)
