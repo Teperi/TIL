@@ -139,3 +139,4 @@
 ## 수정 공부용 출처
 
 - [NDC14 - Rx와 Functional Reactive Programming으로 고성능 서버 만들기](https://www.slideshare.net/jongwookkim/ndc14-rx-functional-reactive-programming?next_slideshow=1)
+- [[Reactive] Reactive Programming 배우는 방법](https://mobicon.tistory.com/467)
