@@ -80,26 +80,26 @@
       - 메시지는 스스로를 설명해야한다
       - 확장 가능한 커뮤니케이션
 
-        ```JSON
-        GET / HTTP/1.1   <!-- X: 스스로가 어디서 왔는지 설명하지 않음 -->
+      ```JSON
+      GET / HTTP/1.1   <!-- X: 스스로가 어디서 왔는지 설명하지 않음 -->
 
-        GET / HTTP/1.1
-        Host: www.example.org   <!-- O: 이렇게 주소 써줘야 함 -->
-        ```
+      GET / HTTP/1.1
+      Host: www.example.org   <!-- O: 이렇게 주소 써줘야 함 -->
+      ```
 
-        ```JSON
-        HTTP/1.1 200 OK
+      ```JSON
+      HTTP/1.1 200 OK
 
-        [ { "op": "remove", "path": "/a/b/c" } ]
-          <!-- X: 이것이 어떤 문법으로 쓰여졌는지 설명할 수 없음 -->
+      [ { "op": "remove", "path": "/a/b/c" } ]
+        <!-- X: 이것이 어떤 문법으로 쓰여졌는지 설명할 수 없음 -->
 
-        HTTP/1.1 200 OK
-        Content - Type: application/json-patch+json
+      HTTP/1.1 200 OK
+      Content - Type: application/json-patch+json
 
-        [ { "op": "remove", "path": "/a/b/c" } ]
-          <!-- O: 명세를 찾아서 해석이 가능하도록 제대로 주어야 함 -->
-          <!-- application/json 으로는 부족함. op 가 무엇인지 모름 -->
-        ```
+      [ { "op": "remove", "path": "/a/b/c" } ]
+        <!-- O: 명세를 찾아서 해석이 가능하도록 제대로 주어야 함 -->
+        <!-- application/json 으로는 부족함. op 가 무엇인지 모름 -->
+      ```
 
     - hypermedia as the engine of application state (HATEOAS)
       - 애플리케이션의 상태는 Hyperlink 를 이용해 전이되어야 한다.
