@@ -1,6 +1,7 @@
 # Docker 기초
 
-2019.03.14: 첫 작성
+- 2019.03.14: 첫 작성
+- 2019.03.15: 사진 자료 추가
 
 ## 가상 머신과 Docker
 
@@ -36,6 +37,7 @@
 ### Docker
 
 ![Docker architecture](https://docs.docker.com/engine/images/architecture.svg)
+*출처: [Docker 공식 문서](https://docs.docker.com/engine/docker-overview/)*
 
 - Git 과 같이 이미지 버전 관리 기능 있음
 - 배포 및 생성에 특화됨: 어떤 실행 환경을 만들고 공유할 수 있음
@@ -43,6 +45,8 @@
   - 서비스 운영에 필요한 서버 프로그램, 소스 코드, 컴파일된 실행 파일을 묶은 형태
   - 베이스 이미지에서 변경 부분만 따로 이미지로 생성됨
     - 컨테이너 실행 시 베이스 이미지 + 바뀐 부분 합쳐 실행
+  ![Docker Image Layer Sample](https://ouseful.files.wordpress.com/2015/08/imagelayers___a_docker_image_visualizer.png)
+  *출처: [OUseful.Info, the blog…: Seven Graphical Interfaces to Docker](https://blog.ouseful.info/2015/08/10/seven-graphical-interfaces-to-docker/)*
 - **Container**
   - 이미지를 실제 실행한 상태
 
