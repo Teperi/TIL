@@ -1,5 +1,7 @@
 # 프로그래밍 패러다임
 
+2019.02.22
+
 ![프로그래밍 패러다임의 갈래](https://cdn-images-1.medium.com/max/1600/0*dEk2KsMnzzV036Zy.png)
 
 ## Imperative VS Declarative
