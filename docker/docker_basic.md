@@ -52,7 +52,6 @@
 
 ## 출처
 
-- [도커 무작정 따라하기](https://www.slideshare.net/pyrasis/docker-fordummies-44424016)
 - [Wikipedia: Virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
 - [Wikipedia: Hypervisor](https://en.wikipedia.org/wiki/Hypervisor)
 - [Wikipedia: Hardware virtualization](https://en.wikipedia.org/wiki/Hardware_virtualization)
@@ -61,3 +60,7 @@
 - [Docker 공식 블로그: ARE CONTAINERS REPLACING VIRTUAL MACHINES?](https://blog.docker.com/2018/08/containers-replacing-virtual-machines/)
 - [Docker 공식 사이트: What is a Container?](https://www.docker.com/resources/what-container)
 - [Docker 공식 문서: Docker overview](https://docs.docker.com/engine/docker-overview/)
+
+## 참고자료(개념 잡기 공부용)
+
+- [도커 무작정 따라하기](https://www.slideshare.net/pyrasis/docker-fordummies-44424016)
