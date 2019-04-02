@@ -1,4 +1,4 @@
-# ReactJS Web Service
+# React
 
 ## 강의 링크
 
@@ -8,6 +8,7 @@
 
 - 2019.02.19 첫 작성
 - 2019.03.11 전체 강의내용 정리 및 포멧 수정
+- 2019.04.02 트렌스파일러 및 모듈 카테고리 독립 및 내용 추가
 
 ## 내용 정리
 
@@ -21,17 +22,17 @@
 - 프레임워크가 아닌 UI 라이브러리 임.
 - MVC 패턴에서 ReactJS 는 View 에 해당함. 따라서 M / C 부분에는 다른 것을 가져다 사용할 수 있음
 
-### 트랜스파일러(transpiler) / 크로스 컴파일러
-
-- 특정 언어로 작성된 프로그램을 다른 언어에서 실행되도록 변환
-- JS 코드를 브라우저가 이해할 수 있는 언어로 변환시켜줌
-  - 브라우저가 ES6 을 지원하지 못할 때 유용함
-  ![WebPack](../Images/webpack.jpg)
-  *출처:* [*webpack 공식 사이트*](https://webpack.js.org/)
-
 ### JSX
 
+- syntax extension to JavaScript: JS 확장 구문
 - React Component 를 만들 때 사용하는 언어
+  - 꼭 JSX 를 사용해야만 하는 것은 아니지만, 있으면 개발이 훨씬 편해지기 때문에 사용을 권고함
+
+### Element
+
+- React 의 가장 작은 단위
+- 화면에 표시할 내용 기술
+- 일반 객체(plain object): 브라우저 DOM element 와 다름
 
 ### Props
 
@@ -45,6 +46,7 @@
 - State 가 바뀔 때마다 Render 가 재실행된다
 - State 를 바꿀 때는 직접 접근하면 안됨 : setState 를 사용해서 변경해야 함
 - state 와 componentDidMount를 같이 사용하면 infinite scroll 같은 것도 만들 수 있음
+
   - 기존 데이터에 합쳐서 추가할 땐 아래 코드 필요함
 
   ```js
@@ -56,3 +58,9 @@
 
 - Loading State
   - API 에서 정보를 받아와서 state 를 업데이트 하려면 사용
+
+## 출처
+
+- [Nomad Coders - ReactJS로 웹 서비스 만들기](https://academy.nomadcoders.co/p/reactjs-fundamentals)
+- [PoiemaWeb](https://poiemaweb.com/es6-babel-webpack-1)
+- [React 공식 문서](https://ko.reactjs.org/docs/getting-started.html)
