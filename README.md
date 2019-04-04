@@ -4,19 +4,50 @@
 
 ## 목차
 
-1. [개인 정리자료](#개인-정리자료)
-   - [Markdown](#Markdown)
-   - [Git](#Git)
-   - [소프트웨어 개발 관련](#소프트웨어-개발-관련)
+1. [Front-End](#Front-End)
+   - [JS](#JS)
+   - [React](#React)
+2. [Back-End](#Back-End)
    - [Docker](#Docker)
-2. [스터디 발표 자료](#스터디-발표-자료)
-3. [Nomad Coders 강의](#Nomad-Coders-강의)
+3. [DB](#DB)
+   - [DynamoDB](#DynamoDB)
+4. [기타](#기타)
+   - [AWS](#AWS)
+   - [Git](#Git)
+   - [Markdown](#Markdown)
+   - [소프트웨어 개발 관련](#소프트웨어-개발-관련)
+   - [스터디 발표 자료](#스터디-발표-자료)
 
-## 개인 정리자료
+## Front-End
 
-### Markdown
+### JS
 
-- [Markdown 참고자료](./markdown/Markdown_참고자료.md) - 2019.02.12
+- [Vanilla-JS 정리 : Nomad Coder 강의 정리](./js/vanillajs.md) - 2019.02.13~2019.02.19
+- [Module & Transpiler](./js/Module&Transpiler.md) - 2019.04.02
+- [JavaScript Types](./js/js_Types.md) - 2019.04.03
+
+### React
+
+- [ReactJS 기초개념](./React/ReactJS_WS.md) - 2019.04.04
+
+## Back-End
+
+### Docker
+
+- [Docker 개념](./docker/docker_basic.md) - 2019.03.15
+- [Docker 설치: 우분투](./docker/docker_install.md) - 2019.03.20
+
+## DB
+
+### DynamoDB
+
+- [DynamoDB 기초](./aws-DynamoDB/DynamoDB_basic.md) - 2019.03.22
+
+## 기타
+
+### AWS
+
+- [Putty 없이 AWS CLI 접속하기](./aws/not_use_putty.md) - 2019.03.25
 
 ### Git
 
@@ -24,26 +55,20 @@
 - [과거 커밋 메시지 오타 수정](./git/git_edit_commit_message.md) - 2019.03.10
 - [Git remote Url 변경](./git/git_change_remoteUrl.md) - 2019.03.12
 
+### Markdown
+
+- [Markdown 참고자료](./markdown/Markdown_참고자료.md) - 2019.04.03
+
 ### 소프트웨어 개발 관련
 
 - [프로그래밍 패러다임](./Software_development/Programming_Paradigms.md) - 2019.02.22
 - [REST, RESTful, REST API 개념](./Software_development/RESTAPI.md) - 2019.02.27
 - [TDD(테스트 주도 개발)](./Software_development/TDD.md) - 2019.03.02
 
-### Docker
-
-- [Docker 개념](./docker/docker_basic.md) - 2019.03.15
-- [Docker 설치: 우분투](./docker/docker_install.md) - 2019.03.20
-
-## 스터디 발표 자료
+### 스터디 발표 자료
 
 - [#1 Git & JS 기초](https://docs.google.com/presentation/d/1OWNY15Z-0dpxEg93CCyosPcU7DLvAyUE71KO8amji90/edit?usp=sharing) - 2019.02.15
 - [#2 OOP & Functional programming](https://docs.google.com/presentation/d/1uh0rrbVksJTHuuGtwCLijbpQIcspbKk5P7nV8dezVVg/edit?usp=sharing) - 2019.02.22
 - [#3 Rx & REST](https://docs.google.com/presentation/d/1m1ZbWvHiRUnSsXsCNPb3bnPcgATBlAx9YRvaG1j0aOw/edit?usp=sharing) - 2019.02.28
 - [#4 TDD](https://docs.google.com/presentation/d/1Wb4nAYMA5QjJBWe9Oi_iofSI0mdzJgqZBYtlHJxzzcI/edit?usp=sharing) - 2019.03.08
 - [#5 Docker](https://docs.google.com/presentation/d/1bzpcls-5RAxmEIe6IvH04GFB_jHvWT5eGXeFiOjcn_Y/edit?usp=sharing) - 2019.03.15
-
-## Nomad Coders 강의
-
-- [Vanilla-JS 정리](./js/vanillajs.md) - 2019.02.13~2019.02.19
-- [ReactJS Web Service 정리](./React/ReactJS_WS.md) - 2019.02.19~정리중
