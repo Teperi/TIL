@@ -2,7 +2,7 @@
 
 - 2019.04.09: 첫 작성
 
-## git ignore?
+## git ignore
 
 - 프로젝트에 들어가면 안되는 파일 제외목적으로 사용
   - 백업, 로그 등 굳이 git에 들어갈 필요가 없는 파일들
@@ -41,7 +41,7 @@
      doc/**/*.pdf
      ```
 
-   - TIP : GitHub은 다양한 프로젝트에서 자주 사용하는 .gitignore 예제를 관리하고 있다. 어떤 내용을 넣을지 막막하다면 https://github.com/github/gitignore 사이트에서 적당한 예제를 찾을 수 있다.
+   - TIP : GitHub은 다양한 프로젝트에서 자주 사용하는 .gitignore 예제를 관리하고 있다. 어떤 내용을 넣을지 막막하다면 [Github gitignore repo](https://github.com/github/gitignore) 사이트에서 적당한 예제를 찾을 수 있다.
 
 3. commit & push
 

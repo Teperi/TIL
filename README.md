@@ -54,6 +54,7 @@
 - [Git 기초](./git/git_basic.md) - 2019.02.12
 - [과거 커밋 메시지 오타 수정](./git/git_edit_commit_message.md) - 2019.03.10
 - [Git remote Url 변경](./git/git_change_remoteUrl.md) - 2019.03.12
+- [.gitignore](./git/git_ignore.md) - 2019.04.09
 
 ### Markdown
 
@@ -72,3 +73,9 @@
 - [#3 Rx & REST](https://docs.google.com/presentation/d/1m1ZbWvHiRUnSsXsCNPb3bnPcgATBlAx9YRvaG1j0aOw/edit?usp=sharing) - 2019.02.28
 - [#4 TDD](https://docs.google.com/presentation/d/1Wb4nAYMA5QjJBWe9Oi_iofSI0mdzJgqZBYtlHJxzzcI/edit?usp=sharing) - 2019.03.08
 - [#5 Docker](https://docs.google.com/presentation/d/1bzpcls-5RAxmEIe6IvH04GFB_jHvWT5eGXeFiOjcn_Y/edit?usp=sharing) - 2019.03.15
+- [#6 AWS 설정](https://docs.google.com/presentation/d/1-yq5N_0ZM69lOBnr5koXF1lL81Ab31NwLE20KiqEP18/edit?usp=sharing) - 2019.03.22
+- #7 발표내용 - 2019.04.05
+  1. [JS Types](./js/js_Types.md)
+  2. [Module & Transpiler](./js/Module&Transpiler.md)
+  3. [React](./React/ReactJS.md)
+- [#8 React Router & Code Split](./React/Router&CodeSplit.md) - 2019.04.12
