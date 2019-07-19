@@ -4,20 +4,26 @@
 
 ## 목차
 
-1. [Front-End](#Front-End)
-   - [CSS](#CSS)
-   - [JS](#JS)
-   - [React](#React)
-2. [Back-End](#Back-End)
-   - [Docker](#Docker)
-3. [DB](#DB)
-   - [DynamoDB](#DynamoDB)
-4. [기타](#기타)
-   - [AWS](#AWS)
-   - [Git](#Git)
-   - [Markdown](#Markdown)
-   - [소프트웨어 개발 관련](#소프트웨어-개발-관련)
-   - [스터디 발표 자료](#스터디-발표-자료)
+- [Today I Learned](#Today-I-Learned)
+  - [목차](#%EB%AA%A9%EC%B0%A8)
+  - [Front-End](#Front-End)
+    - [CSS](#CSS)
+      - [Property](#Property)
+      - [Keyword](#Keyword)
+      - [ETC](#ETC)
+    - [JS](#JS)
+    - [React](#React)
+      - [Next.js](#Nextjs)
+  - [Back-End](#Back-End)
+    - [Docker](#Docker)
+  - [DB](#DB)
+    - [DynamoDB](#DynamoDB)
+  - [기타](#%EA%B8%B0%ED%83%80)
+    - [AWS](#AWS)
+    - [Git](#Git)
+    - [Markdown](#Markdown)
+    - [소프트웨어 개발 관련](#%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8)
+    - [스터디 발표 자료](#%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%9C%ED%91%9C-%EC%9E%90%EB%A3%8C)
 
 ## Front-End
 
@@ -49,6 +55,10 @@
 - [ReactJS 기초개념](./React/ReactJS_WS.md) - 2019.04.04
 - [React Router & Code Spliting](./React/Router&CodeSplit.md) - 2019.04.12
 - [React Tip: Fragment](./React/ReactFragment.md) - 2019.06.07
+
+#### Next.js
+
+- [Styled-jsx 이해](./Nextjs/Styled-jsx.md) - 2019.07.19
 
 ## Back-End
 
