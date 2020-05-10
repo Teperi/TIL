@@ -1,5 +1,7 @@
 # Today I Learned
 
+## ✋이 계정은 더이상 사용하지 않습니다. [새 계정 TIL 링크](https://github.com/Jereint20/TIL#today-i-learned)
+
 개발 중 새롭게 알게된 것을 정리하고, 그 결과를 기록으로 남김
 
 ## 목차
